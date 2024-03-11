@@ -72,6 +72,7 @@ const Tengah = () => {
                     <input id="total" placeholder="ex: nasi@gmail.com" type="text" value={email} onChange={(e) => setEmail(e.target.value)}/>
                 </div>
                 <br />
+                <br />
 
                 <button className="baten" >Submit!</button>
             </form>
